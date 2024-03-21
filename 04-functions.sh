@@ -14,4 +14,3 @@ example() {
 }
 
 example1 10 20 30
-example1 $*
