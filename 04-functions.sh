@@ -14,3 +14,4 @@ example() {
 }
 
 example 10 20 30
+example1 $*
