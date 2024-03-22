@@ -72,7 +72,7 @@ else
   echo " $x is less than 100"
 fi
 
-## Variables in expresssions better to provide in double quotes when it is string
+## Variables in expressions better to provide in double quotes when it is string
 
 if [ "$x" == new ]; then
   echo Input Missing
