@@ -71,3 +71,17 @@ if [ $x -gt 100 ]; then
 else
   echo " $x is less than 100"
 fi
+
+# Handle Input Missing
+
+x=$1
+
+if [ -z "$x" ]; then
+  echo Input Missing
+fi
+
+if [ $x -gt 100 ]; then
+  echo " $x is greather than 100"
+else
+  echo " $x is less than 100"
+fi
