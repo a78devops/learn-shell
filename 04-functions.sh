@@ -15,3 +15,12 @@ example1() {
 
 example1 10 20 30
 example1 "$*"
+
+example3() {
+  echo hello
+  return 10
+  echo bye
+}
+
+example3
+echo return status - $?
