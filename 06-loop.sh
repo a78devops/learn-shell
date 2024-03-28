@@ -1,4 +1,4 @@
-# while loop
+# while loop works on expression
 i=0
 while [ $i -lt 10 ]; do
   echo i - $i
@@ -7,3 +7,6 @@ done
 
 
 # for loop
+for fruit in apple banana orange ; do
+  echo fruit - $fruit
+done
